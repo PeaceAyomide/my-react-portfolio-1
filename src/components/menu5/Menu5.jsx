@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css"
 import { useRef } from 'react';
-import emailjs from 'emailjs-com';
-
+import emailjs from 'emailjs-com';  
+import Button from '../menu5/Button';
 
 
 const Menu = () => {
@@ -45,8 +45,10 @@ const Menu = () => {
     <input type="text" name='subject' placeholder="Email Subject" />
     </div>    
 <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-<input type="submit"  value="Send Message" class="btn" />
-</form>
+        <Button class="btn"/>
+       
+      </form>
+     
 </section>
 
   )

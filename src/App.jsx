@@ -9,7 +9,6 @@ import Menu4 from './components/menu4/Menu4'
 import Menu5 from './components/menu5/Menu5'
 import Footer from './components/zfooter/Footer'
 
-
 const App = () => {
   const [loading, setLoading] = useState(false);
 
@@ -55,7 +54,8 @@ const App = () => {
 
       <Menu4 />
       <Menu5 />
-      <Footer/>
+            <Footer />
+           
           </>
            )}
            </>
